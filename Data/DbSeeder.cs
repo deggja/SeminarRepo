@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using seminarapi.Models;
 
-namespace Data
+namespace seminarapi.Data
 {
     public class DbSeeder
     {
@@ -12,11 +12,11 @@ namespace Data
         {
             context.Database.EnsureCreated();
 
-            // Check if seeded
+            /* Check if seeded
             if (context.Courses.Any())
             {
-                return; // Db already seeded
-            }
+                return; Db already seeded
+            } */
 
             var courses = new Course[]
             {
@@ -59,6 +59,17 @@ namespace Data
             foreach (Instructor i in instructors)
             {
                 context.Instructors.Add(i);
+            }
+            context.SaveChanges();
+
+            var enrollments = new Enrollment[]
+            {
+                new Enrollment{ParticipantID=1, CourseID=1 },
+                new Enrollment{ParticipantID=2, CourseID=1 }
+            };
+            foreach (Enrollment e in enrollments)
+            {
+                context.Enrollments.Add(e);
             }
             context.SaveChanges();
         }

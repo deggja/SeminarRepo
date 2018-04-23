@@ -7,7 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using Data;
+using seminarapi.Data;
 using seminarapi.Models;
 using Microsoft.Extensions.DependencyInjection;
 using seminar_api;

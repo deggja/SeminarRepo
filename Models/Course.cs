@@ -13,8 +13,7 @@ namespace seminarapi.Models
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
 
-        public List<Participant> Participants { get; set; }
-        public List<Instructor> Instructors { get; set; }
+        public ICollection<Enrollment> Enrollments { get; set; }
         
     }
 }
