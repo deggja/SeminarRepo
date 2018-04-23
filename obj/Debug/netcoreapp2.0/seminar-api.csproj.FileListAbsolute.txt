@@ -1,0 +1,11 @@
+C:\Users\Daniel\Desktop\seminar-api\seminar-api\seminar-api\bin\Debug\netcoreapp2.0\seminar-api.deps.json
+C:\Users\Daniel\Desktop\seminar-api\seminar-api\seminar-api\bin\Debug\netcoreapp2.0\seminar-api.runtimeconfig.json
+C:\Users\Daniel\Desktop\seminar-api\seminar-api\seminar-api\bin\Debug\netcoreapp2.0\seminar-api.runtimeconfig.dev.json
+C:\Users\Daniel\Desktop\seminar-api\seminar-api\seminar-api\bin\Debug\netcoreapp2.0\seminar-api.dll
+C:\Users\Daniel\Desktop\seminar-api\seminar-api\seminar-api\bin\Debug\netcoreapp2.0\seminar-api.pdb
+C:\Users\Daniel\Desktop\seminar-api\seminar-api\seminar-api\obj\Debug\netcoreapp2.0\seminar-api.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\seminar-api\seminar-api\seminar-api\obj\Debug\netcoreapp2.0\seminar-api.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\seminar-api\seminar-api\seminar-api\obj\Debug\netcoreapp2.0\seminar-api.AssemblyInfoInputs.cache
+C:\Users\Daniel\Desktop\seminar-api\seminar-api\seminar-api\obj\Debug\netcoreapp2.0\seminar-api.AssemblyInfo.cs
+C:\Users\Daniel\Desktop\seminar-api\seminar-api\seminar-api\obj\Debug\netcoreapp2.0\seminar-api.dll
+C:\Users\Daniel\Desktop\seminar-api\seminar-api\seminar-api\obj\Debug\netcoreapp2.0\seminar-api.pdb
