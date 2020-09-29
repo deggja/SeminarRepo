@@ -72,17 +72,6 @@ namespace seminarapi.Data
                 context.Enrollments.Add(e);
             }
             context.SaveChanges();
-
-            var locations = new Location[]
-            {
-                new Location{LocationName="Oslo", LocationCountry="Norway" },
-                new Location{LocationName="Bergen", LocationCountry="Norway" },
-            };
-            foreach (Location i in locations)
-            {
-                context.Instructors.Add(i);
-            }
-            context.SaveChanges();
         }
     }
 }
