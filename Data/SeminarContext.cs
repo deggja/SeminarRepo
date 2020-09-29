@@ -17,6 +17,7 @@ namespace seminarapi.Data
         public DbSet<Instructor> Instructors { get; set; }
         public DbSet<Participant> Participants { get; set; }
         public DbSet<Enrollment> Enrollments { get; set; }
+        public DbSet<Location> Locations { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -24,6 +25,7 @@ namespace seminarapi.Data
             modelBuilder.Entity<Instructor>().ToTable("Instructor");
             modelBuilder.Entity<Participant>().ToTable("Participant");
             modelBuilder.Entity<Enrollment>().ToTable("Enrollment");
+            modelBuilder.Entity<Location>().ToTable("Location");
         }
     }
 }

@@ -65,11 +65,22 @@ namespace seminarapi.Data
             var enrollments = new Enrollment[]
             {
                 new Enrollment{ParticipantID=1, CourseID=1 },
-                new Enrollment{ParticipantID=2, CourseID=1 }
+                new Enrollment{ParticipantID=2, CourseID=1 },
             };
             foreach (Enrollment e in enrollments)
             {
                 context.Enrollments.Add(e);
+            }
+            context.SaveChanges();
+
+            var locations = new Location[]
+            {
+                new Location{LocationName="Oslo", LocationCountry="Norway" },
+                new Location{LocationName="Bergen", LocationCountry="Norway" },
+            };
+            foreach (Location i in locations)
+            {
+                context.Instructors.Add(i);
             }
             context.SaveChanges();
         }
